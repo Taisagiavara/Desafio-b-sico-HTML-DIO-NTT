@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health&Life - Cuidando Sempre de Você!</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <ul>
+                    <ol>
+                        <img src="img/telefone.jpg" width="100%">
+                    </ol>
+                </ul>
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Saiba mais sobre nossos serviços:</h1>
+            
+                <div id="contato">
+                    <ul>
+                        <li>Telefone: (11) 9999-9999</li>
+                        <li>WhatsApp: (11) 9999-9999</li>
+                    </ul>
+                </div>
+                
+                <div id="local">
+                    <h1>Localização:</h1>
+                </div>
+
+                <iframe id="mapa"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04886615387!2d-46.875497434389835!3d-23.681531449872676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1669856389412!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+                <h1 id="forms">Formulário de Contato</h1>
+                <form id="form" name="formContato" action="" method="get">
+                    <p>
+                        <strong>Nome:</strong> <br><input type="text" name="Nome" ><br>
+                        <strong>Email:</strong> <br><input type="email" name="Email" ><br>
+                        <strong>Assunto:</strong> <br>
+                        <select name="Assunto">
+                            <option value="bota">Dúvidas sobre o serviço</option>
+                            <option value="fla">como faço para adquirir</option>
+                            <option value="flu">Como funciona</option>
+                            <option value="vasco">Convêncios</option>
+                            </select><br>
+                            <p><label for="Mensagem"><strong>Mensagem:</strong></label></p>
+                            <textarea id="Mensagem" name="Mensagem" rows="4" cols="50"></textarea>
+                            <br>
+            
+                        <input id="limpar" type="reset" value="Limpar" />
+                        <input id="enviar" type="submit" value="Enviar" />    
+                    </p>
+                </form>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>Telefone para contato: (11) 9999-9999</p>
+                <p>Localização: São Paulo</p>
+                <h3>&copy; Copyright 2020-2022 Health&Life</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
